@@ -1,0 +1,172 @@
+Psuedo codes
+	SHORT CODE:
+	no multiplication sybmol. used like algebra when needed
+	used pure interpreter, and was 50 times slower than machine code
+
+	Speed Coding:
+	added floating point operations, as well as conditonal branching, and relative addressing. used interpreter, and low memory remaining after loading interpreter
+
+
+Fortran
+	interpretive systems were extremely slow but were still used because it didn't have to simulate floating point operation. so the trade could be considered worth it.   
+	indroduction of IBM's computer with hardware for FP operations made interpreative systems irrelavant. Therefore fortran was the first compiled language and was signifivanly faster than
+	psudocodes
+	
+	
+	fort 1 included inp/out 
+	only int and float data types
+
+	fort 2 included indepenedant compilation for subroutines. This made compilation much faster and was significant because machine failure would occur if long lines of code
+	
+	fort 4 included ability to send functions as parameters, datatyping, if and else.
+	
+	fort 77 added string, loop, optional else
+	
+	fort 90 added recursion, dynamic arrays, pointers, 
+	
+	fort 2005, added OOP
+	
+	fort 2008 added parallel
+	
+	
+LISP
+	Deveploped for AI as linguists pshycologists, and mathamaticians were intereseted in NLP, simulating how brain stores memory, and proving theorums
+	developed as fortran neither had symbolic datatype, recursions, or condiotional exp. 
+	added linked list
+	two data types, atoms (for symbols and numbers), and lists
+	functional programming language
+	
+	scheme
+	allowed functon to be passed as variables, and can be part of lists
+	
+	common lisp.
+	combined all varients of lisp, 
+	dyamic scoping
+	
+	
+ALGOL
+	Developed as machine independant as fortran was IBM and LISP was something other.
+	formalized syntax
+	
+	algol 58 was an erlier version which was debated upon. 
+	
+	alogol 60 was the revised version
+	block structure was introduced
+	pass by value and pass by name were allowed
+	procedures were allowed to be recursive
+	stack dynamic arrays
+	
+	"ALGOL 60 never achieved widespread use
+	in the United States. Even in Europe, where it was more popular than in the
+	United States, it never became the dominant language. There are a number
+	of reasons for its lack of acceptance. For one thing, some of the features of
+	ALGOL 60 turned out to be too flexible; they made understanding difficult
+	and implementation inefficient"
+	
+	
+	The lack of input and output statements in the language was another major
+	reason for its lack of acceptance. Implementation-dependent input/output
+	made programs difficult to port to other computers.
+	Ironically, one of the most important contributions to computer science
+	associated with ALGOL 60, BNF, was also a factor in its lack of acceptance.
+	Although BNF is now considered a simple and elegant means of syntax descrip-
+	tion, in 1960 it seemed strange and complicated.
+	Finally, although there were many other problems, the entrenchment of
+	Fortran among users and the lack of support by IBM were probably the most
+	important factors in ALGOL 60’s failure to gain widespread use.
+	The ALGOL 60 effort was never really complete, in the sense that ambi-
+	guities and obscurities were always a part of the language description (Knuth,
+	1967).
+	
+	
+COBOL
+	erlier languages were used for scientific purposes only, COBOL was developed for business applications. used more english as much as possible rather than mathamtaical notiations.
+	the concept was that the lanaguage should be as easy as possible to understand, even could compromise power
+	
+	allowed for more conrol over format for printing
+	hyphens in vraibale names
+	weakness: lack of functions
+	lack of computing power made this language expensive to compile, but was evetually irrelavant
+	
+	
+Basic
+	1. It must be easy for nonscience students to learn and use.
+	2. It must be “pleasant and friendly.”
+	3. It must provide fast turnaround for homework.
+	4. It must allow free and private access.
+	5. It must consider user time more important than computer time.
+	
+	Overall, it was a very limited language,
+	though quite easy to learn.
+	
+	VB became widely used in large part because it pro-vided a simple way of building graphical user interfaces (GUIs), hence the
+	name Visual Basic. When .NET appeared, a new version of VB came with it,
+	VB.NET
+	
+PL/I	
+	Combined the best features of algo, fortran, an cobol. 
+	• Programs were allowed to create concurrently executing subprograms. Although this was a good idea, it was poorly developed in PL/I.
+	• It was possible to detect and handle 23 different types of exceptions, or run-time errors.
+	• Subprograms were allowed to be used recursively, but the capability could be disabled, allowing more efficient linkage for nonrecursive subprograms.
+	• Pointers were included as a data type.
+	• Cross-sections of arrays could be referenced. For example, the third row of a matrix could be referenced as if it were a single-dimensioned array.
+	
+APL and Snobbal
+	APL
+		APL has a large number of powerful operators that are specified with a
+		large number of symbols, which created a problem for implementors.
+		ne reason APL has so many operators is that it provides a large number
+		of unit operations on arrays. For example, the transpose of any matrix is done
+		with a single operator. The large collection of operators provides very high
+		expressivity but also makes APL programs difficult to read
+		
+	Snobal
+		t was designed specifically for text
+		processing. The heart of SNOBOL is a collection of powerful operations for
+		string pattern matching.
+		
+SIMULA 67
+	SIMULA 67 is an extension of ALGOL 60, taking both block structure and the
+	control statements from that language. The primary deficiency of ALGOL 60
+	(and other languages at that time) for simulation applications was the design of
+	its subprograms. Simulation requires subprograms that are allowed to restart
+	at the position where they previously stopped. Subprograms with this kind of
+	­control are known as coroutines
+	
+	
+Algo 68
+	The approach of ALGOL 68 to data structures was to provide a few prim-itive types and structures and allow the user to combine those primitives to
+	define a large number of different structures. This provision for user-defined
+	data types was carried over to some extent into all of the major imperative
+	languages designed since then. User-defined data types are valuable because
+	they allow the user to design data abstractions that fit particular problems very
+	closely.
+	
+	orthognal. 
+	
+
+Pascal
+	Used for teaching purposes. 
+	Because Pascal was designed as a teaching language, it lacks several features
+	that are essential for many kinds of applications. The best example of this is
+	the impossibility of writing a subprogram that takes as a parameter an array
+	of variable length. Another example is the lack of any separate compilation
+	capability.
+	
+	
+C
+	1970.
+	Neither BCPL nor B is a typed language. Being untyped means that all data are considered machine
+	words, which, although simple, leads to many complications and insecurities.
+	For example, there is the problem of specifying floating-point rather than
+	­integer arithmetic in an expression. An alternative to this would have been to use different symbols for the float-ing-point operators.
+	This problem, along with several others, led to the development of a new typed language based on B. Originally called NB but later named C,
+	One of the most important reasons why C is both liked and disliked is its lack of complete type checking.
+	
+	
+Prolog
+	Logic programming. Used to escape the complexity of impretive languages. Used in AI. 
+	mother(joanne, jake).
+	father(vern, joanne).
+	
+
