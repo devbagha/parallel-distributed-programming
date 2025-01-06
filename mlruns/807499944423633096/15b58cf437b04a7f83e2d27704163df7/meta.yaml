@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/muhammadkhalidbagha/Desktop/pdc%20labs%20/mlruns/807499944423633096/15b58cf437b04a7f83e2d27704163df7/artifacts
+end_time: 1736189684875
+entry_point_name: ''
+experiment_id: '807499944423633096'
+lifecycle_stage: active
+run_id: 15b58cf437b04a7f83e2d27704163df7
+run_name: blushing-panda-993
+run_uuid: 15b58cf437b04a7f83e2d27704163df7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736189681974
+status: 3
+tags: []
+user_id: muhammadkhalidbagha

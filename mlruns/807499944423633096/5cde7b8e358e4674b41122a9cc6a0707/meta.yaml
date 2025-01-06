@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/muhammadkhalidbagha/Desktop/pdc%20labs%20/mlruns/807499944423633096/5cde7b8e358e4674b41122a9cc6a0707/artifacts
+end_time: 1736189657601
+entry_point_name: ''
+experiment_id: '807499944423633096'
+lifecycle_stage: active
+run_id: 5cde7b8e358e4674b41122a9cc6a0707
+run_name: secretive-shrike-855
+run_uuid: 5cde7b8e358e4674b41122a9cc6a0707
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736189653358
+status: 3
+tags: []
+user_id: muhammadkhalidbagha

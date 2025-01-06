@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/muhammadkhalidbagha/Desktop/pdc%20labs%20/mlruns/807499944423633096/efead2b59978498b9db0b11b347667d9/artifacts
+end_time: 1736189758569
+entry_point_name: ''
+experiment_id: '807499944423633096'
+lifecycle_stage: active
+run_id: efead2b59978498b9db0b11b347667d9
+run_name: adaptable-auk-384
+run_uuid: efead2b59978498b9db0b11b347667d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736189755374
+status: 3
+tags: []
+user_id: muhammadkhalidbagha

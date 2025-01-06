@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/muhammadkhalidbagha/Desktop/pdc%20labs%20/mlruns/807499944423633096/3595a940c60444f5a01516a965cf1a2d/artifacts
+end_time: 1736189765954
+entry_point_name: ''
+experiment_id: '807499944423633096'
+lifecycle_stage: active
+run_id: 3595a940c60444f5a01516a965cf1a2d
+run_name: bald-lark-530
+run_uuid: 3595a940c60444f5a01516a965cf1a2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736189763202
+status: 3
+tags: []
+user_id: muhammadkhalidbagha
